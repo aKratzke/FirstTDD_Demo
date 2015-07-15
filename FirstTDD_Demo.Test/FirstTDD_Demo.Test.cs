@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstTDD_Demo.Test
 {
-    public class Class1
+    public class FizzBuzz   
     {
     }
 }
