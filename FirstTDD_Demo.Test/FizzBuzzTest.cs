@@ -26,5 +26,13 @@ namespace FirstTDD_Demo.Test
 
             Assert.Equal("Fizz", answer);
         }
+        [Fact]
+        public void NumberDividedByFive()
+        {
+            var ourTest = new FirstTDD_Demo.FizzBuzzLogic();
+            string answer = ourTest.DoTheThing(5);
+
+            Assert.Equal("Buzz", answer);
+        }
     }
 }
