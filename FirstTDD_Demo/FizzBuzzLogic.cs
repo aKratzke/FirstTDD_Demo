@@ -17,6 +17,7 @@ namespace FirstTDD_Demo
             else
             {
                 answer = (p % 3 == 0) ? "Fizz" : string.Empty;
+                answer += (p % 5 == 0) ? "Buzz" : string.Empty;
             }
             
             return answer;
